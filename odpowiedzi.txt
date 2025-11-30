@@ -1,0 +1,9 @@
+Wyjaśnij, dlaczego szyfr Cezara nie chroni poufności we współczesnych systemach
+
+Szyfr Cezara nie chroni poufności we współczesnych systemach, ponieważ ma ekstremalnie małą przestrzeń kluczy, tylko 26 możliwych przesunięć, które można sprawdzić w ułamku sekundy metodą brute force.
+
+=================================
+
+Wskaż, jak długość klucza wpływa na bezpieczeństwo szyfru.
+
+W szyfrze Vigenère’a długość klucza decyduje o bezpieczeństwie. Krótki klucz łatwo wykryć metodami Kasis­kiego lub Friedmana, bo wzorce się powtarzają. Długi, rzadko powtarzalny klucz utrudnia analizę częstotliwości. Klucz tak długi jak tekst może dać bezpieczeństwo one-time pad.
